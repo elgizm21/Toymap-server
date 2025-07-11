@@ -1,0 +1,29 @@
+{
+  "tables": [
+    {
+      "id": "q",
+      "x": 2,
+      "y": 0
+    },
+    {
+      "id": "T1",
+      "x": 100,
+      "y": 100
+    }
+  ],
+  "assignments": {
+    "Elgiz": "q",
+    "Huseyn": "T1",
+    "Huseyn Rzazada": "T1",
+    "M": "T1",
+    "MMM": "q"
+  },
+  "ads": [
+    {
+      "id": "1",
+      "title": "reklam",
+      "imageUrl": "https://images.app.goo.gl/2rHFxUHZauxgjKBU8",
+      "link": ""
+    }
+  ]
+}
