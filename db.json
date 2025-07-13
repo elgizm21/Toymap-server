@@ -9,6 +9,11 @@
       "id": "T1",
       "x": 100,
       "y": 100
+    },
+    {
+      "id": "T2",
+      "x": 300,
+      "y": 200
     }
   ],
   "assignments": {
@@ -16,7 +21,8 @@
     "Huseyn": "T1",
     "Huseyn Rzazada": "T1",
     "M": "T1",
-    "MMM": "q"
+    "MMM": "q",
+    "Test": "T2"
   },
   "ads": [
     {
