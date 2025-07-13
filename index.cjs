@@ -9,7 +9,7 @@ const app = express();
 
 // 1) CORS-u açıq şəkildə bütün origin-lərə icazə ver
 app.use(cors({ origin: '*' }));
-app.use(cors(corsOptions));
+
 
 
 app.use(express.json());
