@@ -8,9 +8,14 @@ const path    = require('path');
 const app = express();
 
 // 1) CORS-u açıq şəkildə bütün origin-lərə icazə ver
-app.use(cors({
-  origin: '*'
-}));
+const corsOptions = {
+  origin: [
+    'http://localhost:5173',
+    'https://SENIN-SITE.netlify.app'
+  ]
+};
+app.use(cors(corsOptions));
+
 
 app.use(express.json());
 
